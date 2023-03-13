@@ -1,0 +1,5 @@
+<div class="container">
+    <app-setting-list class="left-bar" [settingList]="settingList" (onSelect) = onSettingSelect($event)></app-setting-list>
+    <app-setting-detail class="right-bar" [selectedSetting]="selectedSetting" ></app-setting-detail>
+    <!-- <router-outlet></router-outlet> -->
+</div>

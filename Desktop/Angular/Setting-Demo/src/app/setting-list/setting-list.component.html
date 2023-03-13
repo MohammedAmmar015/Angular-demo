@@ -1,0 +1,7 @@
+<!-- <ul class="setting-list-container">
+    <li *ngFor = "let setting of settingList" (click) = "onSettingSelect(setting)" [class.selected] = isSelected(setting)>{{setting.name}}</li>
+</ul> -->
+
+<div class="setting-list-container">
+    <a *ngFor = "let setting of settingList" routerLink = "/settings/{{setting.url}}" routerLinkActive = "selected" (click) = "onSettingSelect(setting)">{{setting.name}}</a>
+</div>

@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+}
+
+.left-bar {
+    width: 25%;
+    border-right: 0.2px solid lightgray;
+}
+
+.right-bar {
+    width: 75%;
+}

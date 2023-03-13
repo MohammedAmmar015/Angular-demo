@@ -1,0 +1,11 @@
+.setting-container {
+    /* display: flex; */
+    width: 60%;
+    background-color: white;
+    margin: 0 auto;
+    height: 96vh;
+}
+
+app-setting {
+    display: flex;
+}
